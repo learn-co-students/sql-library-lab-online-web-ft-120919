@@ -1,0 +1,13 @@
+INSERT INTO series (title, author_id, subgenre_id) VALUES ("A Song of Ice and Fire", 1, 1);
+INSERT INTO series (title, author_id, subgenre_id) VALUES ("A Song of Ice and Fire", 1, 1);
+INSERT INTO books (title, year) VALUES ("Game of Thrones", 1996);
+INSERT INTO books (title, year) VALUES ("Game of Thrones", 1996);
+INSERT INTO books (title, year) VALUES ("Game of Thrones", 1996);
+INSERT INTO books (title, year) VALUES ("Game of Thrones", 1996);
+INSERT INTO books (title, year) VALUES ("Game of Thrones", 1996);
+INSERT INTO books (title, year) VALUES ("Game of Thrones", 1996);
+INSERT INTO characters (name, motto, species) VALUES ("Lady", "Woof Woof", "direwolf"),("Lady", "Woof Woof", "direwolf"),("Lady", "Woof Woof", "direwolf"),("Lady", "Woof Woof", "direwolf"),("Lady", "Woof Woof", "direwolf"), ("Tyrion Lannister", "A Lannister always pays his debts", "hum"), ("Daenerys Targaryen", "If I look back I am lost", "human"), ("Eddard Stark", "Winter is coming", "human");
+INSERT INTO subgenres (name) VALUES ("medieval"), ("space opera");
+INSERT INTO authors (name) VALUES ("George R. R. Martin"), ("Second Author");
+INSERT INTO character_books (book_id, character_id) VALUES (4, 5), (4, 6), (5, 6), (6, 6), (4, 7), (5, 7), (6, 7), (4, 8);
+INSERT INTO character_books (book_id, character_id) VALUES (4, 5), (4, 6), (5, 6), (6, 6), (4, 7), (5, 7), (6, 7), (4, 8);
